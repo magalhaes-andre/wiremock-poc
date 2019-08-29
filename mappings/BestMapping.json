@@ -1,0 +1,15 @@
+{
+    "request": {
+        "url": "/best"
+    },
+    
+    "response":{
+        "status": 200,
+        "bodyFileName": "SucessfulResponse.json",
+        "delayDistribution": {
+            "type": "uniform",
+            "lower": 200,
+            "upper": 1000
+        }
+    }
+}

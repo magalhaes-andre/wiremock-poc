@@ -1,0 +1,15 @@
+{
+    "request": {
+        "url": "/medium"
+    },
+    
+    "response":{
+        "status": 409,
+        "bodyFileName": "UnsucessfulResponse.json",
+        "delayDistribution": {
+            "type": "uniform",
+            "lower": 200,
+            "upper": 5000
+        }
+    }
+}
