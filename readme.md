@@ -2,8 +2,9 @@
 
 [Download wiremock-standalone jar](http://wiremock.org/docs/download-and-installation/)
 
-- After running the jar, paste the contents on __files/ and mappings/ into wiremock's path.
-- Cancel the running and re-run
+- Leave the standalone jar in the wiremock folder, since it will be copied into the container.
+- Run _'docker run -d -p 8080:8080 --name wiremock wiremock-poc'_
+- Wiremock will be up at localhost:8080
 
 ### Instructions:
 
