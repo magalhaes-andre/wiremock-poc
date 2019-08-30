@@ -1,0 +1,18 @@
+{
+    "request": {
+        "url": "/nes/xml"
+    },
+    
+    "response":{
+        "headers":{
+            "Content-Type": "application/xml"
+        },
+        "status": 200,
+        "bodyFileName": "xml/nesResponse.xml",
+        "delayDistribution": {
+            "type": "uniform",
+            "lower": 200,
+            "upper": 1000
+        }
+    }
+}

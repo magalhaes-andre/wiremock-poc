@@ -1,0 +1,18 @@
+{
+    "request": {
+        "url": "/ps1/xml"
+    },
+    
+    "response":{
+        "headers":{
+            "Content-Type": "application/xml"
+        },
+        "status": 200,
+        "bodyFileName": "xml/ps1Response.xml",
+        "delayDistribution": {
+            "type": "uniform",
+            "lower": 200,
+            "upper": 30000
+        }
+    }
+}

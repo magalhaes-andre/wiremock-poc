@@ -1,0 +1,13 @@
+{
+    "priority": 2,
+    "request": {
+        "url": "/"
+    },
+
+    "response":{
+        "headers":{
+            "Content-Type": "text/html"
+        },
+        "bodyFileName":"index.html"
+    }
+}

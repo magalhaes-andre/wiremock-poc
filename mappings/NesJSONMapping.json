@@ -1,11 +1,14 @@
 {
     "request": {
-        "url": "/best"
+        "url": "/nes/json"
     },
     
     "response":{
+        "headers":{
+            "Content-Type": "application/json"
+        },
         "status": 200,
-        "bodyFileName": "SucessfulResponse.json",
+        "bodyFileName": "json/nesResponse.json",
         "delayDistribution": {
             "type": "uniform",
             "lower": 200,

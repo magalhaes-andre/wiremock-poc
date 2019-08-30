@@ -1,11 +1,14 @@
 {
     "request": {
-        "url": "/worst"
+        "url": "/ps1/json"
     },
     
     "response":{
-        "status": 409,
-        "bodyFileName": "UnsucessfulResponse.json",
+        "headers":{
+            "Content-Type": "application/json"
+        },
+        "status": 200,
+        "bodyFileName": "json/ps1Response.json",
         "delayDistribution": {
             "type": "uniform",
             "lower": 200,

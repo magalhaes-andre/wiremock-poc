@@ -1,0 +1,18 @@
+{
+    "request": {
+        "url": "/snes/json"
+    },
+    
+    "response":{
+        "headers":{
+            "Content-Type": "application/json"
+        },
+        "status": 200,
+        "bodyFileName": "json/snesResponse.json",
+        "delayDistribution": {
+            "type": "uniform",
+            "lower": 200,
+            "upper": 5000
+        }
+    }
+}

@@ -1,11 +1,14 @@
 {
     "request": {
-        "url": "/medium"
+        "url": "/snes/xml"
     },
     
     "response":{
-        "status": 409,
-        "bodyFileName": "UnsucessfulResponse.json",
+        "headers":{
+            "Content-Type": "application/xml"
+        },
+        "status": 200,
+        "bodyFileName": "xml/snesResponse.xml",
         "delayDistribution": {
             "type": "uniform",
             "lower": 200,
